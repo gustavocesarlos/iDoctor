@@ -21,6 +21,7 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.util.Log;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -214,5 +215,10 @@ public class GoogleSignInActivity extends BaseActivity implements
         } else if (i == R.id.disconnect_button) {
             revokeAccess();
         }
+    }
+
+    public void cadastrar(View view){
+        Intent cadastrarActivity = new Intent(this, SignUpActivity.class);
+        startActivity(cadastrarActivity);
     }
 }
