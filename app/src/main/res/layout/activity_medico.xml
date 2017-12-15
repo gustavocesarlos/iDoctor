@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/nomeMedico"
+        android:layout_width="215dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="4dp"
+        android:text="%NOME%"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/especMedico"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="32dp"
+        android:text="%especialidade%"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <TextView
+        android:id="@+id/endMedico"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="32dp"
+        android:text="%endereco%"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="164dp" />
+
+    <TextView
+        android:id="@+id/phoneMedico"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="32dp"
+        android:text="%telefone%"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="244dp" />
+</android.support.constraint.ConstraintLayout>
